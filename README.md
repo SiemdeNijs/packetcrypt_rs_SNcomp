@@ -73,10 +73,9 @@ Start the miner: "systemctl start pkt"
 
 Status of the miner: "systemctl status pkt"
 
-Place the minepkt.sh anywhere you'd like. In this example: /home/username/minepkt.sh
 
 Cheers and have fun.
--Siem
+### -Siem
 
 **📬Contact, questions, ideas, custom builds, general geeky-convos welcome:** 
 > Siem🌻#4926 on the PKT Cash Discord: https://discord.gg/CkNJefwW52
