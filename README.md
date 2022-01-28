@@ -50,10 +50,19 @@ Windows
 
 **Linux native:**
 
+> wget -O /etc/systemd/system/pkt.service https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkt.service
+ 
+> wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_amd64_linux && sudo chmod +x ~/packetcrypt
+
+> 
+
+> wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/minepkt.sh && sudo chmod +x ~/minepkt.sh
+
+> 
 
 Run the above commands to get the the linux miner (amd64), bash file "minepkt.sh" , & "pkt.service". It will also try to enable the systemd service (so it runs on boot). You can disable this behavior by typing: "sudo systemctl disable pkt".
 
-**Be sure to type: "sudo nano ~/minepkt.sh" after installation and change your address !**
+**⚠️Be sure to type: "sudo nano ~/minepkt.sh" as mentioned above to change your address⚠️**
 
 Stop the miner: "systemctl stop pkt"
 Start the miner: "systemctl start pkt"
