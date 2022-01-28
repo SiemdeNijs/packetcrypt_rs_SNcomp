@@ -18,8 +18,11 @@ Request can be made through PKT Cash's Discord, hit me up there if you need it c
 1 Rename the file to "packetcrypt".
 
 2 Use the miner command's as usual:
+
 Linux
+
 > /path/to//packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+
 Windows
 
 > /path/to//packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
