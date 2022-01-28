@@ -9,6 +9,7 @@ No warranty. No support.
 * will be tinkered with in future releases for more custom optimizations
  
 Wish to compile it yourself instead ? 
+
 The most convential way is described in detail here for WSL/Linux: https://denijs.photography/pkt-how-to-install-wsl-compile-miner
 
 Request can be made through PKT Cash's Discord, hit me up there if you need it compiled for a specific target.
