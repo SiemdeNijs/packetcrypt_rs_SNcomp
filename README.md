@@ -80,8 +80,13 @@ Cheers and have fun.
 ### -Siem
 
 **📬Contact, questions, ideas, custom builds, general geeky-convos welcome:** 
+
 > Siem🌻#4926 on the PKT Cash Discord: https://discord.gg/CkNJefwW52
+
 > https://deNijs.xyz/
+
 **💝If you're feeling especially kind or helped by my efforts to increase the PKT communities yield:**
+
 >PKT: pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj
+
 >PayPal: https://PayPal.me/SiemdeNijs
