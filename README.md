@@ -10,7 +10,7 @@ No warranty. No support.
 
 Request can be made through PKT Cash's Discord, hit me up there if you need it compiled for a specific target.
 
-### Usage:
+###⛏️ Usage:
 1 Rename the file to "packetcrypt".
 
 2 Use the miner command's as usual:
@@ -22,9 +22,9 @@ Windows
 
 **⚠️Replace the "pkt1......" address with your address⚠️**
 
-### Optional one click run for Windows / systemd service (Linux):
+###👾 Optional one click run for Windows, WSL or systemd service (Linux):
 
-**Windows native (running .exe directly on windows machine):**
+**🪟 Windows native (running .exe directly on windows machine):**
 
 >  1 Open notepad
 
@@ -36,7 +36,7 @@ Windows
 
 >  5: if successfully saved, you can now double click the icon to run our miner.
  
-**Windows WSL:**
+**🪟🐧 Windows WSL:**
 
 >  1 Open notepad
 
@@ -48,7 +48,7 @@ Windows
 
 >  5: if successfully saved, you can now double click the icon to run our miner.
 
-**Linux native:**
+**🐧 Linux native:**
 
 > wget -O /etc/systemd/system/pkt.service https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkt.service
  
@@ -66,7 +66,21 @@ Run the above commands in order to get the the linux miner (amd64), bash file "m
 **⚠️Be sure to type: "sudo nano ~/minepkt.sh" as mentioned above to change your address⚠️**
 
 Enable/Disable autorun: "systemctl enable pkt" or "systemctl disable pkt"
+
 Stop the miner: "systemctl stop pkt"
+
 Start the miner: "systemctl start pkt"
+
 Status of the miner: "systemctl status pkt"
+
 Place the minepkt.sh anywhere you'd like. In this example: /home/username/minepkt.sh
+
+Cheers and have fun.
+-Siem
+
+📬Contact, questions, ideas, custom builds, general nerd-convos welcome: 
+> Siem🌻#4926 on the PKT Cash Discord: https://discord.gg/CkNJefwW52
+> https://deNijs.xyz/
+**💝If you're feeling especially kind or helped by my efforts to increase the PKT communities yield:**
+>PKT: pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj
+>PayPal: https://PayPal.me/SiemdeNijs
