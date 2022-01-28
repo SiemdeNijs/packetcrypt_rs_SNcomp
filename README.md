@@ -66,7 +66,7 @@ Windows
 **Linux native:**
 
 
-Run the above commands to get the the linux miner (amd64) inside "~/", bash file "minepkt.sh" inside your "~/" & "pkt.service" inside /etc/systemd/system/. It will also try to enable it [so it runs on boot]. You can disable this by typing: "sudo systemctl disable pkt".
+Run the above commands to get the the linux miner (amd64), bash file "minepkt.sh" , & "pkt.service". It will also try to enable the systemd service (so it runs on boot). You can disable this behavior by typing: "sudo systemctl disable pkt".
 
 **Be sure to type: "sudo nano ~/minepkt.sh" after installation and change your address !**
 
