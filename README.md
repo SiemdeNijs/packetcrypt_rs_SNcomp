@@ -58,10 +58,14 @@ Windows
 
 > sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️**. Hit CTRL + X To exit, "Y" to save when prompted.
 
-Run the above commands to get the the linux miner (amd64), bash file "minepkt.sh" , & "pkt.service". It will also try to enable the systemd service (so it runs on boot). You can disable this behavior by typing: "sudo systemctl disable pkt".
+> sudo systemctl enable pkt **⚠️only if you want to autorun it on boot, else ignore this command⚠️**
 
+> Done. See commands below.
+
+Run the above commands in order to get the the linux miner (amd64), bash file "minepkt.sh" , & "pkt.service".
 **⚠️Be sure to type: "sudo nano ~/minepkt.sh" as mentioned above to change your address⚠️**
 
+Enable/Disable autorun: "systemctl enable pkt" or "systemctl disable pkt"
 Stop the miner: "systemctl stop pkt"
 Start the miner: "systemctl start pkt"
 Status of the miner: "systemctl status pkt"
