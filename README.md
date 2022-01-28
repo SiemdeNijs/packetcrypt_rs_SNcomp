@@ -19,10 +19,10 @@ Request can be made through PKT Cash's Discord, hit me up there if you need it c
 
 2 Use the miner command's as usual:
 Linux
-> /path/to//packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+> /path/to//packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 Windows
 
-> /path/to//packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+> /path/to//packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 
 **⚠️Replace the "pkt1......" address with your address⚠️**
 
@@ -32,7 +32,7 @@ Windows
 
 >  1 Open notepad
 
->  2 Copy this: "/path/to//packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in"
+>  2 Copy this: "/path/to//packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in"
 
 >  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used.
 
@@ -44,7 +44,7 @@ Windows
 
 >  1 Open notepad
 
->  2 Copy this: "wsl /path/to//packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in"
+>  2 Copy this: "wsl /path/to//packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in"
 
 >  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used.
 
