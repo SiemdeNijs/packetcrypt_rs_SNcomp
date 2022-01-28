@@ -11,21 +11,6 @@ Look for the version which fits your system. No other packages available at the 
 Request can be made through PKT Cash's Discord, hit me up there if you need it compiled for a specific target.
 
 ### Usage:
-1 Rename the file to "packetcrypt"
-
-2 Use the miner as usual:
-
-Linux
-
-> /path/to//packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/2048 http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
-
-Windows
-
-> /path/to//packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/2048 http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
-
-**Replace the "pkt1......" address with your address.**
-
-### Usage:
 1 Rename the file to "packetcrypt".
 
 2 Use the miner command's as usual:
