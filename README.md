@@ -1,12 +1,12 @@
 # SNcomp version of packetcrypt_rs annminer
-These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkering. Use at your own risk. No warranty. No support.
+These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkering. Use at your own risk. 
+No warranty. No support.
+
 * include jemalloc flag for supported devices
 * upward to ~50% performance gains vs packetcrypt_rs pre-compiled miners
 (highest increasements seen by EPYC, 5950x, Intel E-series users)
 * different compiling workflow to achieve a more stable experience (hopefully)
 * will be tinkered with in future releases for more custom optimizations
-
-Look for the version which fits your system. No other packages available at the moment.
 
 Request can be made through PKT Cash's Discord, hit me up there if you need it compiled for a specific target.
 
@@ -20,7 +20,7 @@ Windows
 
 > /path/to//packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/2048 http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 
-**Replace the "pkt1......" address with your address.**
+**⚠️Replace the "pkt1......" address with your address⚠️**
 
 ### Optional one click run for Windows / systemd service (Linux):
 
@@ -54,11 +54,9 @@ Windows
  
 > wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_amd64_linux && sudo chmod +x ~/packetcrypt
 
-> 
-
 > wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/minepkt.sh && sudo chmod +x ~/minepkt.sh
 
-> 
+> sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️**. Hit CTRL + X To exit, "Y" to save when prompted.
 
 Run the above commands to get the the linux miner (amd64), bash file "minepkt.sh" , & "pkt.service". It will also try to enable the systemd service (so it runs on boot). You can disable this behavior by typing: "sudo systemctl disable pkt".
 
