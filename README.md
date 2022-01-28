@@ -24,7 +24,7 @@ Windows
 
 ### 👾 Optional one click run for Windows, WSL or systemd service (Linux):
 
-** 🪟 Windows native (running .exe directly on windows machine):**
+**🪟 Windows native (running .exe directly on windows machine):**
 
 >  1 Open notepad
 
@@ -36,7 +36,7 @@ Windows
 
 >  5: if successfully saved, you can now double click the icon to run our miner.
  
-** 🪟🐧 Windows WSL:**
+**🪟🐧 Windows WSL:**
 
 >  1 Open notepad
 
