@@ -21,11 +21,11 @@ Request can be made through PKT Cash's Discord, hit me up there if you need it c
 
 Linux
 
-> /path/to//packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+> /path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 
 Windows
 
-> /path/to//packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+> /path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 
 **⚠️Replace the address with your address⚠️**
 
@@ -35,7 +35,7 @@ Windows
 
 >  1 Open notepad
 
->  2 Copy this: "/path/to//packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in"
+>  2 Copy this: "/path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in"
 
 >  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used.
 
@@ -47,7 +47,7 @@ Windows
 
 >  1 Open notepad
 
->  2 Copy this: "wsl /path/to//packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in"
+>  2 Copy this: "wsl /path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in"
 
 >  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used.
 
@@ -72,7 +72,9 @@ Windows
 Run the above commands in order to get the the linux miner (amd64), bash file "minepkt.sh" , & "pkt.service".
 **⚠️Be sure to type: "sudo nano ~/minepkt.sh" as mentioned above to change your address⚠️**
 
-Enable/Disable autorun: "systemctl enable pkt" or "systemctl disable pkt"
+Enable/Disable autorun: "systemctl enable pkt"
+
+or "systemctl disable pkt"
 
 Stop the miner: "systemctl stop pkt"
 
