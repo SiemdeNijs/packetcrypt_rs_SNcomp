@@ -27,7 +27,7 @@ Windows
 
 > /path/to//packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 
-**⚠️Replace the "pkt1......" address with your address⚠️**
+**⚠️Replace the "pkt1.." address with your address⚠️**
 
 ### 👾 Optional one click run for Windows, WSL or systemd service (Linux):
 
