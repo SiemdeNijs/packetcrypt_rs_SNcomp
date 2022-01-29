@@ -3,7 +3,7 @@ These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkeri
 No warranty. No support.
 
 * include jemalloc flag for supported devices
-* upward to ~50% performance gains vs packetcrypt_rs pre-compiled miners
+* upward to ~100 performance gains vs packetcrypt_rs pre-compiled miners
 (highest increasements seen by EPYC, 5950x, Intel E-series users)
 * different compiling workflow to achieve a more stable experience (hopefully)
 * will be tinkered with in future releases for more custom optimizations
