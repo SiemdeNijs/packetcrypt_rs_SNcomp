@@ -17,7 +17,7 @@ Request can be made through PKT Cash's Discord, hit me up there if you need it c
 ### ⛏️ Usage:
 1 Rename the file to "packetcrypt".
 
-2 Use the miner command's as usual:
+2 Use the miner commands as usual:
 
 Linux
 
