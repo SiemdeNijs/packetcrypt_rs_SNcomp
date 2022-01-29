@@ -69,7 +69,7 @@ Windows
 
 > Done. See commands below.
 
-Run the above commands in order to get the the linux miner (amd64), bash file "minepkt.sh" , & "pkt.service".
+Run the above commands in order to get the the linux miner, bash file "minepkt.sh" , & "pkt.service".
 
 **⚠️Be sure to type: "sudo nano ~/minepkt.sh" as mentioned to change your address⚠️**
 
