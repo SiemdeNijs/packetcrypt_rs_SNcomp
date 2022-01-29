@@ -41,7 +41,7 @@ Windows
 
 >  4: Click "Save as", and select "all files" instead of the ".txt" extension. As a name, name it "whatever" but be sure to end it with "**.cmd**".
 
->  5: if successfully saved, you can now double click the icon to run our miner.
+>  5: if successfully saved, you can now double click the icon to run your miner.
  
 **🪟🐧 Windows WSL:**
 
@@ -53,7 +53,7 @@ Windows
 
 >  4: Click "Save as", and select "all files" instead of the ".txt" extension. As a name, name it "whatever" but be sure to end it with "**.cmd**".
 
->  5: if successfully saved, you can now double click the icon to run our miner.
+>  5: if successfully saved, you can now double click the icon to run your miner.
 
 **🐧 Linux native:**
 
