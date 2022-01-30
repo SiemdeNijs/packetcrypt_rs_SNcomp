@@ -5,7 +5,7 @@ No warranty. No support.
 The official repo can be found here: https://github.com/cjdelisle/packetcrypt_rs 
 
 * include jemalloc flag for supported devices
-* upward to ~100 performance gains vs packetcrypt_rs pre-compiled miners
+* upward to ~100 % performance gains vs packetcrypt_rs pre-compiled miners
 
 (highest increasements seen by EPYC, 5950x, Intel E-series users)
 * different compiling workflow to achieve a more stable experience (hopefully)
