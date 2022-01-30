@@ -120,6 +120,7 @@ Status of the miner: "systemctl status pkt"
 Show miner session: tmux attach-session -t miner
 
 Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
+
 [or find the corresponding tmux commands for your system]
 
 Cheers and have fun.
