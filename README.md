@@ -55,7 +55,7 @@ Windows
 
 >  5: if successfully saved, you can now double click the icon to run your miner.
 
-**🐧 Linux native:**
+**🐧 Linux native, option one: systemd [if unsure dont use the tmux :)] **
 
 > wget -O /etc/systemd/system/pkt.service https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkt.service
  
@@ -83,6 +83,43 @@ Start the miner: "systemctl start pkt"
 
 Status of the miner: "systemctl status pkt"
 
+
+**🐧 Linux native, option two: systemd with tmux [if unsure dont use the tmux :)] **
+
+> wget -O /etc/systemd/system/pkt.service https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmux.service
+ 
+> wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_x8664_linux && sudo chmod +x ~/packetcrypt
+
+> wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/minepkt.sh && sudo chmod +x ~/minepkt.sh
+
+> wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmuxmine.sh && sudo chmod +x ~/pkttmuxmine.sh
+
+> sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️**. Hit CTRL + X To exit, "Y" to save when prompted.
+
+> sudo systemctl enable pkt **⚠️only if you want to autorun it on boot, else ignore this command⚠️**
+
+> Done. See commands below.
+
+Run the above commands in order to get the the linux miner, bash file "minepkt.sh" & "pkttmuxmine.sh", & "pkt.service".
+
+**⚠️Be sure to type: "sudo nano ~/minepkt.sh" as mentioned to change your address⚠️**
+
+Enable/Disable autorun: "systemctl enable pkt"
+
+or "systemctl disable pkt"
+
+Stop the miner: "systemctl stop pkt"
+
+Start the miner: "systemctl start pkt"
+
+Status of the miner: "systemctl status pkt"
+
+**Tmux session is called "miner"**
+
+Show miner session: tmux attach-session -t miner
+
+Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
+[or find the corresponding tmux commands for your system]
 
 Cheers and have fun.
 ### -Siem
