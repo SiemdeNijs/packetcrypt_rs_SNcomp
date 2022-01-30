@@ -1,6 +1,7 @@
 # 🌻⛏️👾 SNcomp version of packetcrypt_rs annminer
-These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkering. Use at your own risk. 
-No warranty. No support.
+These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkering. 
+
+Use at your own risk. No warranty. No (or very limited) support.
 
 
 > include jemalloc flag for supported devices
