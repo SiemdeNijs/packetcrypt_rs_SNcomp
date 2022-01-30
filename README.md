@@ -1,6 +1,7 @@
 # SNcomp version of packetcrypt_rs annminer
 These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkering. Use at your own risk. 
 No warranty. No support.
+The official repo can be found here: https://github.com/cjdelisle/packetcrypt_rs 
 
 * include jemalloc flag for supported devices
 * upward to ~100 performance gains vs packetcrypt_rs pre-compiled miners
