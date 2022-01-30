@@ -1,4 +1,4 @@
-# SNcomp version of packetcrypt_rs annminer
+# 🌻⛏️👾 SNcomp version of packetcrypt_rs annminer
 These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkering. Use at your own risk. 
 No warranty. No support.
 
@@ -11,7 +11,7 @@ The official repo can be found here: https://github.com/cjdelisle/packetcrypt_rs
 * different compiling workflow to achieve a more stable experience (hopefully)
 * will be tinkered with in future releases for more custom optimizations
  
-Wish to compile it yourself instead ? 
+### 🚀 Wish to install WSL while you're at it ?
 
 The most convential way is described in detail here for WSL/Linux: https://denijs.photography/pkt-how-to-install-wsl-compile-miner
 
@@ -85,7 +85,6 @@ Stop the miner: "systemctl stop pkt"
 Start the miner: "systemctl start pkt"
 
 Status of the miner: "systemctl status pkt"
-
 
 **🐧 Linux native, option two: systemd with tmux [if unsure which to chose pick systemd option 1] **
 
