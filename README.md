@@ -28,7 +28,7 @@ Please ignore the instructions on how to compile it if you use my custom package
 
 **The instructions on how to self-compile it above are different from what I'm doing with SNcomp:**
 
-I'm personally editing the source & compile it with a very different method.**
+I'm personally editing the source & compile it with a very different method.
 
 ### ⛏️ Usage:
 1 Rename the file to "packetcrypt".
