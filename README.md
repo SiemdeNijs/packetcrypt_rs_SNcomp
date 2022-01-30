@@ -45,7 +45,7 @@ Windows
 
 **⚠️Replace the address with your address⚠️**
 
-### 👾 Optional one click run for Windows, WSL or systemd service (Linux):
+### 👾 Optional one click run for Windows or WSL or systemd (tmux) service for Linux:
 
 **🪟 Windows native (running .exe directly on windows machine):**
 
