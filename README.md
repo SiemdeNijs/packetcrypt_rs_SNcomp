@@ -13,13 +13,15 @@ The official repo can be found here: https://github.com/cjdelisle/packetcrypt_rs
  
 ### 🚀 Wish to install WSL for the best performance on a Windows host ?
 
-The most convential way is described in detail here for WSL: https://denijs.photography/pkt-how-to-install-wsl-compile-miner
+The most convential way is described in detail here for WSL: 
+https://denijs.photography/pkt-how-to-install-wsl-compile-miner
 
 Please ignore the instructions on how to compile it if you use my custom package provided here on GitHub. 
 
 
-**The instructions on how to compile it above are completely different from what I'm doing with SNcomp:**
-I'm personally editing the miners source & compile it with a very different method.**
+**The instructions on how to self-compile it above are different from what I'm doing with SNcomp:**
+
+I'm personally editing the source & compile it with a very different method.**
 
 ### ⛏️ Usage:
 1 Rename the file to "packetcrypt".
