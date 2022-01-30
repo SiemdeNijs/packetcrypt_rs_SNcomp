@@ -19,7 +19,8 @@ Use at your own risk. No warranty. Expect no support, but I do try my best to of
 
 ### 🚀 Wish to install WSL for the best performance on a Windows host ?
 
-The most convential way is described in detail here for WSL: 
+The most convential way is described in detail here for WSL:
+
 https://denijs.photography/pkt-how-to-install-wsl-compile-miner
 
 Please ignore the instructions on how to compile it if you use my custom package provided here on GitHub. 
