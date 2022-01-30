@@ -55,7 +55,7 @@ Windows
 
 >  5: if successfully saved, you can now double click the icon to run your miner.
 
-**🐧 Linux native, option one: systemd [if unsure dont use the tmux :)] **
+**🐧 Linux native, option one: systemd [if unsure which to chose pick systemd option 1] **
 
 > wget -O /etc/systemd/system/pkt.service https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkt.service
  
@@ -84,7 +84,7 @@ Start the miner: "systemctl start pkt"
 Status of the miner: "systemctl status pkt"
 
 
-**🐧 Linux native, option two: systemd with tmux [if unsure dont use the tmux :)] **
+**🐧 Linux native, option two: systemd with tmux [if unsure which to chose pick systemd option 1] **
 
 > wget -O /etc/systemd/system/pkt.service https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmux.service
  
