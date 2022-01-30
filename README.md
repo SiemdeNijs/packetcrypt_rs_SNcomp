@@ -2,15 +2,16 @@
 These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkering. Use at your own risk. 
 No warranty. No support.
 
-The official repo can be found here: https://github.com/cjdelisle/packetcrypt_rs 
 
 * include jemalloc flag for supported devices
 * upward to ~100 % performance gains vs packetcrypt_rs pre-compiled miners
-
-(highest increasements seen by EPYC, 5950x, Intel E-series users)
 * different compiling workflow to achieve a more stable experience (hopefully)
 * will be tinkered with in future releases for more custom optimizations
- 
+
+- Highest increasements seen by EPYC, 5950x, Intel E-series users reported via Discord/PKT Chat
+- Your milegae may vary. But, every penny counts
+- The official repo can be found here: https://github.com/cjdelisle/packetcrypt_rs 
+
 ### 🚀 Wish to install WSL for the best performance on a Windows host ?
 
 The most convential way is described in detail here for WSL: 
