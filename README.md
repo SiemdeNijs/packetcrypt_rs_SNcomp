@@ -87,7 +87,13 @@ Windows
 
 Run the above commands in order to get the the linux miner, bash file "minepkt.sh" , & "pkt.service".
 
-**⚠️Be sure to type: "sudo nano ~/minepkt.sh" as mentioned to change your address⚠️**
+> sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! 
+> 
+> ⚠️**. Hit CTRL + X To exit, "Y" to save when prompted.
+
+> sudo nano /etc/systemd/system/pkt.service **⚠️ edit ~/minepkt.sh path to your path ! For example /root/pkttmuxmine.sh ! 
+> 
+> ⚠️**. Hit CTRL + X To exit, "Y" to save when prompted.
 
 Enable/Disable autorun: "systemctl enable pkt"
 
@@ -109,7 +115,13 @@ Status of the miner: "systemctl status pkt"
 
 > wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmuxmine.sh && sudo chmod +x ~/pkttmuxmine.sh
 
-> sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️**. Hit CTRL + X To exit, "Y" to save when prompted.
+> sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! 
+> 
+> ⚠️**. Hit CTRL + X To exit, "Y" to save when prompted.
+
+> sudo nano /etc/systemd/system/pkt.service **⚠️ edit ~/pkttmuxmine.sh path to your path ! For example /root/pkttmuxmine.sh ! 
+> 
+> ⚠️**. Hit CTRL + X To exit, "Y" to save when prompted.
 
 > sudo systemctl enable pkt **⚠️only if you want to autorun it on boot, else ignore this command⚠️**
 
