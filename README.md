@@ -37,11 +37,11 @@ I'm personally editing the source & compile it with a very different method.
 
 Linux
 
-> /path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+> /path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/4096 http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 
 Windows
 
-> /path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+> /path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/4096 http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 
 **⚠️Replace the address with your address⚠️**
 
@@ -51,9 +51,9 @@ Windows
 
 >  1 Open notepad
 
->  2 Copy this: "/path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in"
+>  2 Copy this: "/path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/4096 http://pool.pktpool.io http://pool.pkteer.com http://pktco.in"
 
->  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used.
+>  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used & edit "/master/4096" in the pkt world url to your preffered difficulty.
 
 >  4: Click "Save as", and select "all files" instead of the ".txt" extension. As a name, name it "whatever" but be sure to end it with "**.cmd**".
 
@@ -63,9 +63,9 @@ Windows
 
 >  1 Open notepad
 
->  2 Copy this: "wsl /path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/ http://pool.pktpool.io http://pool.pkteer.com http://pktco.in"
+>  2 Copy this: "wsl /path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/4096 http://pool.pktpool.io http://pool.pkteer.com http://pktco.in"
 
->  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used.
+>  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used & edit "/master/4096" in the pkt world url to your preffered difficulty.
 
 >  4: Click "Save as", and select "all files" instead of the ".txt" extension. As a name, name it "whatever" but be sure to end it with "**.cmd**".
 
@@ -79,8 +79,8 @@ Windows
 
 > wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/minepkt.sh && sudo chmod +x ~/minepkt.sh
 
-> sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️**. 
->
+> sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** Optionally add "-t *number*" to limit the threads used & edit "/master/4096" in the pkt world url to your preffered difficulty.
+
 > Hit CTRL + X To exit, "Y" to save when prompted.
 
 > sudo nano /etc/systemd/system/pkt.service **⚠️ edit ~/minepkt.sh path to your path ! For example /root/minepkt.sh ! ⚠️**.
@@ -114,8 +114,8 @@ Status of the miner: "systemctl status pkt"
 
 > wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmuxmine.sh && sudo chmod +x ~/pkttmuxmine.sh
 
-> sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️**. 
->
+> sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** Optionally add "-t *number*" to limit the threads used & edit "/master/4096" in the pkt world url to your preffered difficulty.. 
+
 > Hit CTRL + X To exit, "Y" to save when prompted.
 
 > sudo nano /etc/systemd/system/pkt.service **⚠️ edit ~/pkttmuxmine.sh path to your path ! For example /root/pkttmuxmine.sh ! ⚠️**.
