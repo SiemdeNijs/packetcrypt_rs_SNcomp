@@ -19,11 +19,11 @@ Use at your own risk. No warranty. Expect no support, but I do try my best to of
 
 ## 🚀 Wish to install WSL for the best performance on a Windows host ?
 
-The most convential way is described in detail here for WSL:
+The most convential way is described in detail here for Windows 10 & 11:
 
 https://denijs.photography/pkt-how-to-install-wsl-compile-miner
 
-Please ignore the instructions on how to compile it if you use my custom package provided here on GitHub. 
+Please ignore the instructions on how to compile the miner if you use my custom package provided here on GitHub. 
 
 **The instructions on how to self-compile it above are different from what I'm doing with SNcomp:**
 
@@ -173,7 +173,7 @@ Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
 [or find the corresponding tmux commands for your system]
 
 
-# Cheers and have fun.
+## Cheers and have fun.
 **-Siem**
 
 **📬Contact, questions, ideas, custom builds, general geeky-convos welcome:** 
