@@ -51,7 +51,7 @@ Windows
 
 ### 👾 Optional one click run for Windows or WSL or systemd (tmux) service for Linux:
 
-**🪟 Windows native (running .exe directly on windows machine):**
+### **🪟 Windows native (running .exe directly on windows machine):**
 
 >  1 Open notepad
 
@@ -66,7 +66,7 @@ Windows
 
 >  5: if successfully saved, you can now double click the icon to run your miner.
  
-**🪟🐧 Windows WSL:**
+### **🪟🐧 Windows WSL:**
 
 >  1 Open notepad
 
@@ -81,7 +81,7 @@ wsl /path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http
 
 >  5: if successfully saved, you can now double click the icon to run your miner.
 
-**🐧 Linux native, option one: systemd (if unsure which to chose pick systemd option 1)**
+### **🐧 Linux native, option one: systemd (if unsure which to chose pick systemd option 1)**
 
 ```
 wget -O /etc/systemd/system/pkt.service https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkt.service
