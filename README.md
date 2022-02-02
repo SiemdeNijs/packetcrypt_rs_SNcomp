@@ -17,7 +17,7 @@ Use at your own risk. No warranty. Expect no support, but I do try my best to of
 
 - The official repo can be found here: https://github.com/cjdelisle/packetcrypt_rs 
 
-### 🚀 Wish to install WSL for the best performance on a Windows host ?
+# 🚀 Wish to install WSL for the best performance on a Windows host ?
 
 The most convential way is described in detail here for WSL:
 
