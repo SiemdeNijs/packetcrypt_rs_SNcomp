@@ -55,7 +55,10 @@ Windows
 
 >  1 Open notepad
 
->  2 Copy this: "/path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnjhttp://pool.pkt.world/master/2048 http://stratum.zetahash.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in"
+>  2 Copy this: 
+```
+"/path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnjhttp://pool.pkt.world/master/2048 http://stratum.zetahash.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+```
 
 >  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used & edit "/master/2048" in the pkt world url to your preffered difficulty.
 
@@ -67,7 +70,10 @@ Windows
 
 >  1 Open notepad
 
->  2 Copy this: "wsl /path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/2048 http://stratum.zetahash.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in" 
+>  2 Copy this:
+```
+wsl /path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/2048 http://stratum.zetahash.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+```
 
 >  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used & edit "/master/2048" in the pkt world url to your preffered difficulty.
 
@@ -77,13 +83,19 @@ Windows
 
 **🐧 Linux native, option one: systemd (if unsure which to chose pick systemd option 1)**
 
-> wget -O /etc/systemd/system/pkt.service https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkt.service
- 
-> wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_x8664_linux && sudo chmod +x ~/packetcrypt
+```
+wget -O /etc/systemd/system/pkt.service https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkt.service
+```
 
-> wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/minepkt.sh && sudo chmod +x ~/minepkt.sh
+```
+wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_x8664_linux && sudo chmod +x ~/packetcrypt
+```
 
-> sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** Optionally add "-t *number*" to limit the threads used & edit "/master/2048" in the pkt world url to your preffered difficulty.
+```
+wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/minepkt.sh && sudo chmod +x ~/minepkt.sh
+```
+
+>sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** Optionally add "-t *number*" to limit the threads used & edit "/master/2048" in the pkt world url to your preffered difficulty.
 
 > Hit CTRL + X To exit, "Y" to save when prompted.
 
@@ -110,13 +122,21 @@ Status of the miner: "systemctl status pkt"
 
 **🐧 Linux native, option two: systemd with tmux (if unsure which to chose pick systemd option 1)**
 
-> wget -O /etc/systemd/system/pkt.service https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmux.service
+```
+wget -O /etc/systemd/system/pkt.service https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmux.service
+```
  
-> wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_x8664_linux && sudo chmod +x ~/packetcrypt
+```
+wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_x8664_linux && sudo chmod +x ~/packetcrypt
+```
 
-> wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/minepkt.sh && sudo chmod +x ~/minepkt.sh
+```
+wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/minepkt.sh && sudo chmod +x ~/minepkt.sh
+```
 
-> wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmuxmine.sh && sudo chmod +x ~/pkttmuxmine.sh
+```
+wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmuxmine.sh && sudo chmod +x ~/pkttmuxmine.sh
+```
 
 > sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** Optionally add "-t *number*" to limit the threads used & edit "/master/2048" in the pkt world url to your preffered difficulty.. 
 
@@ -144,7 +164,10 @@ Status of the miner: "systemctl status pkt"
 
 **Tmux session is called "miner"**
 
-Show miner session: tmux attach-session -t miner
+Show miner session:
+```
+tmux attach-session -t miner
+```
 
 Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
 
