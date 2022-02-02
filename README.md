@@ -37,11 +37,13 @@ I'm personally editing the source & compile it with a very different method.
 
 Linux
 
-> /path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/2048 http://stratum.zetahash.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+``` /path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/2048 http://stratum.zetahash.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+```
 
 Windows
 
-> /path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/2048 http://stratum.zetahash.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+``` /path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/2048 http://stratum.zetahash.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+```
 
 **⚠️Replace the address with your address⚠️**
 
