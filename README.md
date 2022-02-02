@@ -1,4 +1,4 @@
-# 🌻⛏️👾 SNcomp version of packetcrypt_rs annminer
+# 🌻⛏️👾 SNcomp version of packetcrypt_rs annminer 👾⛏️🌻
 These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkering. 
 
 Use at your own risk. No warranty. Expect no support, but I do try my best to offer help on Discord, PKT.Chat & Reddit.
@@ -25,12 +25,11 @@ https://denijs.photography/pkt-how-to-install-wsl-compile-miner
 
 Please ignore the instructions on how to compile it if you use my custom package provided here on GitHub. 
 
-
 **The instructions on how to self-compile it above are different from what I'm doing with SNcomp:**
 
 I'm personally editing the source & compile it with a very different method.
 
-### ⛏️ Usage:
+## ⛏️ Usage:
 1 Rename the file to "packetcrypt".
 
 2 Use the miner commands as usual:
