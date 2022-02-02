@@ -29,7 +29,7 @@ Please ignore the instructions on how to compile it if you use my custom package
 
 I'm personally editing the source & compile it with a very different method.
 
-## ⛏️ Usage:
+# ⛏️ Usage:
 1 Rename the file to "packetcrypt".
 
 2 Use the miner commands as usual:
@@ -48,7 +48,7 @@ Windows
 
 **⚠️Replace the address with your address⚠️**
 
-## 👾 Optional one click run for Windows or WSL or systemd (tmux) service for Linux:
+# 👾 Optional one click run for Windows or WSL or systemd (tmux) service for Linux:
 
 ## **🪟 Windows native (running .exe directly on windows machine):**
 
