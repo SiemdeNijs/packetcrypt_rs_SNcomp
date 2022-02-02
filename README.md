@@ -1,4 +1,4 @@
-# 🌻⛏️👾 SNcomp version of packetcrypt_rs annminer 👾⛏️🌻
+# 🌻⛏️👾 SNcomp packetcrypt_rs annminer 👾⛏️🌻
 These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkering. 
 
 Use at your own risk. No warranty. **Expect no support**, but I do **try** my best to offer help on Discord, PKT.Chat & Reddit.
