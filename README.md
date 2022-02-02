@@ -17,7 +17,7 @@ Use at your own risk. No warranty. Expect no support, but I do try my best to of
 
 - The official repo can be found here: https://github.com/cjdelisle/packetcrypt_rs 
 
-# 🚀 Wish to install WSL for the best performance on a Windows host ?
+## 🚀 Wish to install WSL for the best performance on a Windows host ?
 
 The most convential way is described in detail here for WSL:
 
@@ -29,7 +29,7 @@ Please ignore the instructions on how to compile it if you use my custom package
 
 I'm personally editing the source & compile it with a very different method.
 
-# ⛏️ Usage:
+## ⛏️ Usage:
 1 Rename the file to "packetcrypt".
 
 2 Use the miner commands as usual:
@@ -48,7 +48,7 @@ Windows
 
 **⚠️Replace the address with your address⚠️**
 
-# 👾 Optional one click run for Windows, WSL or Linx native systemd (tmux) service:
+## 👾 Optional one click run for Windows, WSL or Linx native systemd (tmux) service:
 
 ## **🪟 Windows native (running .exe directly on windows machine):**
 
