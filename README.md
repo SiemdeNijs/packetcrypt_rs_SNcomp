@@ -174,7 +174,6 @@ Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
 
 
 ## Cheers and have fun.
-**-Siem**
 
 **📬Contact, questions, ideas, custom builds, general geeky-convos welcome:** 
 
