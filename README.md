@@ -119,7 +119,7 @@ Start the miner: "systemctl start pkt"
 
 Status of the miner: "systemctl status pkt"
 
-**🐧 Linux native, option two: systemd with tmux (if unsure which to chose pick systemd option 1)**
+## **🐧 Linux native, option two: systemd with tmux (if unsure which to chose pick systemd option 1)**
 
 ```
 wget -O /etc/systemd/system/pkt.service https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmux.service
