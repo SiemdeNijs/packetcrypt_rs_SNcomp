@@ -198,6 +198,8 @@ wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/rel
 
 > sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** & edit "/master/2048" in the pkt world url to your preffered difficulty / pool order. 
 
+> **⚠️ ! ON PHONES YOU SHOULD USE THE "-t 10" option and limit threads to about half of your available threads. Edit to find the sweet spot per phone ! ⚠️**
+
 > Hit CTRL + X To exit, "Y" to save when prompted.
  
 > Done. See commands below.
