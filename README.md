@@ -174,7 +174,7 @@ Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
 
 ## **🐧 Android phone UserLAnd mining, debian aarch64**
 
-> Fist install UserLAnd app, setup the debian distro. Look up how to "unrestrict battery usage" & "unrestrict data usage" in your phone settings (often under settings -> Apps -> UserLAnd), also make sure the app has all the correct permissions. Run apt update & apt upgrade upon first usage.
+> Fist install UserLAnd app [https://play.google.com/store/apps/details?id=tech.ula], setup the debian distro. Look up how to "unrestrict battery usage" & "unrestrict data usage" in your phone settings (often under settings -> Apps -> UserLAnd), also make sure the app has all the correct permissions. Run apt update & apt upgrade upon first usage.
 
 ```
 apt install wget && apt install tmux
