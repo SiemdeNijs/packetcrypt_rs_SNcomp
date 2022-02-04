@@ -174,22 +174,22 @@ Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
 
 ## **🐧 Android phone UserLAnd mining, debian aarch64**
 
-> Fist install UserLAnd app [https://play.google.com/store/apps/details?id=tech.ula], setup the debian distro. Look up how to "unrestrict battery usage" & "unrestrict data usage" in your phone settings (often under settings -> Apps -> UserLAnd), also make sure the app has all the correct permissions. Run apt update & apt upgrade upon first usage.
+> Fist install UserLAnd app [https://play.google.com/store/apps/details?id=tech.ula], setup the debian distro. Look up how to "unrestrict battery usage" & "unrestrict data usage" in your phone settings (often under settings -> Apps -> UserLAnd), also make sure the app has all the correct permissions. Run sudo apt update & sudo apt upgrade upon first usage.
 
 ```
-apt install wget && apt install tmux
+sudo apt install wget && sudo apt install tmux
 ```
  
 ```
-wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_aarch64_linux && chmod +x ~/packetcrypt
+wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_aarch64_linux && sudo chmod +x ~/packetcrypt
 ```
 
 ```
-wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/minepkt.sh && chmod +x ~/minepkt.sh
+wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/minepkt.sh && sudo chmod +x ~/minepkt.sh
 ```
 
 ```
-wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmuxmine.sh && chmod +x ~/pkttmuxmine.sh
+wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmuxmine.sh && sudo chmod +x ~/pkttmuxmine.sh
 ```
 
 > sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** & edit "/master/2048" in the pkt world url to your preffered difficulty / pool order. 
