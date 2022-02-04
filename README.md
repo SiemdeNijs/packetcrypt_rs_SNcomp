@@ -179,11 +179,11 @@ Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
 ```
 sudo apt install wget && sudo apt install tmux && sudo apt install nano
 ```
-# option 1: if the command "dpkg --print-architecture" shows arm64 use this package
+### option 1: if the command "dpkg --print-architecture" shows arm64 use this package
 ```
 wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_aarch64_linux && sudo chmod +x ~/packetcrypt
 ```
-# option 2: if the command "dpkg --print-architecture" shows armhf use this package
+### option 2: if the command "dpkg --print-architecture" shows armhf use this package
 ```
 wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_armu_linux && sudo chmod +x ~/packetcrypt
 ```
