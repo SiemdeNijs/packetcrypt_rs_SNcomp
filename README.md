@@ -56,7 +56,7 @@ Windows
 
 >  2 Copy this: 
 ```
-"/path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnjhttp://pool.pkt.world/master/2048 http://stratum.zetahash.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+"/path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/2048 http://stratum.zetahash.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 ```
 
 >  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used & edit "/master/2048" in the pkt world url to your preffered difficulty.
