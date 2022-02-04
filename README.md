@@ -177,7 +177,7 @@ Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
 > Fist install UserLAnd app [https://play.google.com/store/apps/details?id=tech.ula], setup the debian distro. Look up how to "unrestrict battery usage" & "unrestrict data usage" in your phone settings (often under settings -> Apps -> UserLAnd), also make sure the app has all the correct permissions. Run sudo apt update & sudo apt upgrade upon first usage.
 
 ```
-sudo apt install wget && sudo apt install tmux
+sudo apt install wget && sudo apt install tmux && sudo apt install nano
 ```
  
 ```
