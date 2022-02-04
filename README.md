@@ -200,10 +200,6 @@ wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/rel
 
 Run the above commands in order to get the the aarch64 miner, bash file "minepkt.sh" & "pkttmuxmine.sh", & "pkt.service".
 
-Enable/Disable autorun: "systemctl enable pkt"
-
-or "systemctl disable pkt"
-
 Stop the miner: "tmux attach-session -t miner" and hit CTRL + C
 
 Start the miner: "~/pkttmuxmine.sh"
