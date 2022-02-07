@@ -181,22 +181,22 @@ sudo apt install wget && sudo apt install tmux && sudo apt install nano
 ```
 ### option 1A: if the command "dpkg --print-architecture" shows arm64 use this package
 ```
-wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_aarch64_linux && sudo chmod +x ~/packetcrypt
+wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_aarch64_linux && chmod +x ~/packetcrypt
 ```
 ### option 1B: if the command "dpkg --print-architecture" shows armhf use this package
 ```
-wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_armu_linux && sudo chmod +x ~/packetcrypt
+wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_armu_linux && chmod +x ~/packetcrypt
 ```
 ### Now continue, after getting the right package
 ```
-wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/mobile.sh && sudo chmod +x ~/minepkt.sh
+wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/mobile.sh && chmod +x ~/minepkt.sh
 ```
 
 ```
-wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmuxmine.sh && sudo chmod +x ~/pkttmuxmine.sh
+wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmuxmine.sh && chmod +x ~/pkttmuxmine.sh
 ```
 
-> sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** & edit "/master/2048" in the pkt world url to your preffered difficulty / pool order. 
+> nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** & edit "/master/2048" in the pkt world url to your preffered difficulty / pool order. 
 
 > **⚠️ ! ON PHONES YOU SHOULD USE THE "-t 8" option and limit threads to about half of your available threads.
 Edit, and try to find the sweet spot per phone. Performance is otherwise impacted greatly ! ⚠️**
