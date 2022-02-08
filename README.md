@@ -59,7 +59,7 @@ Windows
 "/path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/2048 http://stratum.zetahash.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 ```
 
->  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used & edit "/master/2048" in the pkt world url to your preffered difficulty.
+>  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used.
 
 >  4: Click "Save as", and select "all files" instead of the ".txt" extension. As a name, name it "whatever" but be sure to end it with "**.cmd**".
 
@@ -74,7 +74,7 @@ Windows
 wsl /path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world/master/2048 http://stratum.zetahash.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 ```
 
->  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used & edit "/master/2048" in the pkt world url to your preffered difficulty.
+>  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used.
 
 >  4: Click "Save as", and select "all files" instead of the ".txt" extension. As a name, name it "whatever" but be sure to end it with "**.cmd**".
 
@@ -94,7 +94,7 @@ wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releas
 wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/minepkt.sh && sudo chmod +x ~/minepkt.sh
 ```
 
->sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** Optionally add "-t *number*" to limit the threads used & edit "/master/2048" in the pkt world url to your preffered difficulty.
+>sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** Optionally add "-t *number*" to limit the threads used.
 
 > Hit CTRL + X To exit, "Y" to save when prompted.
 
@@ -137,7 +137,7 @@ wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/release
 wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmuxmine.sh && sudo chmod +x ~/pkttmuxmine.sh
 ```
 
-> sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** Optionally add "-t *number*" to limit the threads used & edit "/master/2048" in the pkt world url to your preffered difficulty.. 
+> sudo nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** Optionally add "-t *number*" to limit the threads used
 
 > Hit CTRL + X To exit, "Y" to save when prompted.
 
@@ -196,7 +196,7 @@ wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/release
 wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmuxmine.sh && chmod +x ~/pkttmuxmine.sh
 ```
 
-> nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** & edit "/master/2048" in the pkt world url to your preffered difficulty / pool order. 
+> nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** 
 
 > **⚠️ ! ON PHONES YOU SHOULD USE THE "-t 8" option and limit threads to about half of your available threads.
 Edit, and try to find the sweet spot per phone. Performance is otherwise impacted greatly ! ⚠️**
