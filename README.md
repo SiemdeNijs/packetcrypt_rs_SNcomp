@@ -229,15 +229,13 @@ wget -O ~/sdnautocomp.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/rel
 The bash script is usable on native Linux systems, compatible with WSL & also tested on Android phones with UserLAnd (debian). 
 It will try to automatically install the dependencies needed to compile the miner, grab the source & tries to compile it on your own machine with your chosen flags, then help you place the miner in "~/", and ask you if you want the minepkt.sh script to easily running the miner.
 
->Why would you want to self-compile ? As mentioned before (https://denijs.photography/pkt-how-to-install-wsl-compile-miner) self-compiling can drastically improve performance. >Each system is different and generic packages made to be 'compatible/portable' for most systems won't preform as well as a package specifically crafted for & on your own system.
+>Why would you want to self-compile ? As mentioned before (https://denijs.photography/pkt-how-to-install-wsl-compile-miner) self-compiling can drastically improve performance. Each system is different and generic packages made to be 'compatible/portable' for most systems won't preform as well as a package specifically crafted for & on your own system.
 
 **Again, these instructions differ from what I'm doing with SNcomp:**
 
 I'm personally editing the source & compile it with a very different method.
 
-This script is soley offered so you can measure performance on pre-compiled official vs my SNcomp vs self compiled version.
-
-In pretty much all cases, I'd still recommend using SNcomp at this moment. 
+This script is soley offered so you can measure performance on pre-compiled official vs my SNcomp vs self compiled version. In pretty much all cases, I'd still recommend using SNcomp at this moment. 
 
 
 ## Cheers and have fun.
