@@ -29,20 +29,6 @@ Please ignore the instructions on how to compile the miner if you use my custom 
 
 I'm personally editing the source & compile it with a very different method.
 
-## 🤖 Use my SDNautocomp script to compile the official miner automatically [Linux/WSL/Android]
-```
-wget -O ~/sdnautocomp.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/sdnautocomp.sh && sudo chmod +x ~/sdnautocomp.sh && sudo ~/sdnautocomp.sh 
-```
-The bash script is usable on native Linux systems, compatible with WSL & also tested on Android phones with UserLAnd (debian). 
-It will try to automatically install the dependencies needed to compile the miner, grab the source & tries to compile it on your own machine with your chosen flags, then help you place the miner in "~/", and ask you if you want the minepkt.sh script to easily running the miner.
-
->Why would you want to self-compile ? As mentioned before (https://denijs.photography/pkt-how-to-install-wsl-compile-miner) self-compiling can drastically improve performance. >Each system is different and generic packages made to be 'compatible/portable' for most systems won't preform as well as a package specifically crafted for & on your own system.
-
-**Again, these instructions above are different from what I'm doing with SNcomp:**
-I'm personally editing the source & compile it with a very different method.
-
-// This script is mainly offered so people can measure their performance on pre-compiled official, my compiled version (SNcomp) & their self compiled version.
-
 ## ⛏️ Usage:
 1 Rename the file to "packetcrypt".
 
@@ -235,6 +221,20 @@ tmux attach-session -t miner
 Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
 
 > Optionally, connect to your android phone over ssh with port 2022 and your set username/password.
+
+## **🤖 Use my SDNautocomp script if you wish to compile the official miner automatically [Linux/WSL/Android]**
+```
+wget -O ~/sdnautocomp.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/sdnautocomp.sh && sudo chmod +x ~/sdnautocomp.sh && sudo ~/sdnautocomp.sh 
+```
+The bash script is usable on native Linux systems, compatible with WSL & also tested on Android phones with UserLAnd (debian). 
+It will try to automatically install the dependencies needed to compile the miner, grab the source & tries to compile it on your own machine with your chosen flags, then help you place the miner in "~/", and ask you if you want the minepkt.sh script to easily running the miner.
+
+>Why would you want to self-compile ? As mentioned before (https://denijs.photography/pkt-how-to-install-wsl-compile-miner) self-compiling can drastically improve performance. >Each system is different and generic packages made to be 'compatible/portable' for most systems won't preform as well as a package specifically crafted for & on your own system.
+
+**Again, these instructions above are different from what I'm doing with SNcomp:**
+I'm personally editing the source & compile it with a very different method.
+
+// This script is mainly offered so people can measure their performance on pre-compiled official, my compiled version (SNcomp) & their self compiled version.
 
 
 ## Cheers and have fun.
