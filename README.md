@@ -235,7 +235,9 @@ It will try to automatically install the dependencies needed to compile the mine
 
 I'm personally editing the source & compile it with a very different method.
 
-This script is soley offered so you can measure performance on pre-compiled official vs my SNcomp vs self compiled version. In pretty much all cases, I'd still recommend using SNcomp at this moment. 
+This script is soley offered so you can measure performance on pre-compiled official vs my SNcomp vs self compiled version.
+
+In pretty much all cases, I'd still recommend using SNcomp at this moment. 
 
 
 ## Cheers and have fun.
