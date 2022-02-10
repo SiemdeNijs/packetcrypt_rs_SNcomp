@@ -29,7 +29,7 @@ Please ignore the instructions on how to compile the miner if you use my custom 
 
 I'm personally editing the source & compile it with a very different method.
 
-## 🤖 Use my SDNautocomp script to compile the official miner package per-machine, automatically
+## 🤖 Use my SDNautocomp script to compile the official miner automatically [Linux/WSL/Android]
 ```
 wget -O ~/sdnautocomp.sh -- url -- && sudo chmod +x ~/sdnautocomp.sh && sudo ~/sdnautocomp.sh 
 ```
