@@ -224,7 +224,7 @@ Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
 
 ## **🤖 Use my SDNautocomp script if you wish to compile the official miner automatically [Linux/WSL/Android]**
 ```
-wget -O ~/sdnautocomp.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/sdnautocomp.sh && sudo chmod +x ~/sdnautocomp.sh && sudo ~/sdnautocomp.sh 
+wget -O ~/sdnautocomp.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/sdnautocomp.sh && sudo chmod +x ~/sdnautocomp.sh && ~/sdnautocomp.sh 
 ```
 The bash script is usable on native Linux systems, compatible with WSL & also tested on Android phones with UserLAnd (debian). 
 It will try to automatically install the dependencies needed to compile the miner, grab the source & tries to compile it on your own machine with your chosen flags, then help you place the miner in "~/", and ask you if you want the minepkt.sh script to easily running the miner.
