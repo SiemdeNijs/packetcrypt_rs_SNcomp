@@ -232,9 +232,10 @@ It will try to automatically install the dependencies needed to compile the mine
 >Why would you want to self-compile ? As mentioned before (https://denijs.photography/pkt-how-to-install-wsl-compile-miner) self-compiling can drastically improve performance. >Each system is different and generic packages made to be 'compatible/portable' for most systems won't preform as well as a package specifically crafted for & on your own system.
 
 **Again, these instructions differ from what I'm doing with SNcomp:**
+
 I'm personally editing the source & compile it with a very different method.
 
-// This script is offered so you can measure performance on pre-compiled official vs my SNcomp vs self compiled version.
+This script is soley offered so you can measure performance on pre-compiled official vs my SNcomp vs self compiled version. In pretty much all cases, I'd still recommend using SNcomp at this moment. 
 
 
 ## Cheers and have fun.
