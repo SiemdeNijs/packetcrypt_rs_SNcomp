@@ -23,11 +23,25 @@ The most convential way is described in detail here for Windows 10 & 11:
 
 https://denijs.photography/pkt-how-to-install-wsl-compile-miner
 
-Please ignore the instructions on how to compile the miner if you use my custom package provided here on GitHub. 
+Please ignore the instructions on how to compile the miner if you use my custom package/auto-comp provided here on GitHub. 
 
 **The instructions on how to self-compile it above are different from what I'm doing with SNcomp:**
 
 I'm personally editing the source & compile it with a very different method.
+
+## 🤖 Use my SDNautocomp script to compile the official miner package per-machine, automatically
+```
+wget -O ~/sdnautocomp.sh -- url -- && sudo chmod +x ~/sdnautocomp.sh && sudo ~/sdnautocomp.sh 
+```
+The bash script is usable on native Linux systems, compatible with WSL & also tested on Android phones with UserLAnd (debian). 
+It will try to automatically install the dependencies needed to compile the miner, grab the source & tries to compile it on your own machine with your chosen flags, then help you place the miner in "~/", and ask you if you want the minepkt.sh script to easily running the miner.
+
+>Why would you want to self-compile ? As mentioned before (https://denijs.photography/pkt-how-to-install-wsl-compile-miner) self-compiling can drastically improve performance. >Each system is different and generic packages made to be 'compatible/portable' for most systems won't preform as well as a package specifically crafted for & on your own system.
+
+**Again, these instructions above are different from what I'm doing with SNcomp:**
+I'm personally editing the source & compile it with a very different method.
+
+// This script is mainly offered so people can measure their performance on pre-compiled official, my compiled version (SNcomp) & their self compiled version.
 
 ## ⛏️ Usage:
 1 Rename the file to "packetcrypt".
