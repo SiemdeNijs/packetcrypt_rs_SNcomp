@@ -227,7 +227,7 @@ Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
 wget -O ~/sdnautocomp.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/sdnautocomp.sh && sudo chmod +x ~/sdnautocomp.sh && ~/sdnautocomp.sh 
 ```
 The bash script is usable on native Linux systems, compatible with WSL & also tested on Android phones with UserLAnd (debian). 
-It will try to automatically install the dependencies needed to compile the miner, grab the source & tries to compile it on your own machine with your chosen flags, then help you place the miner in "~/", and ask you if you want the minepkt.sh script to easily running the miner.
+It will try to automatically install the dependencies needed to compile the miner, grab the source & tries to compile it on your own machine with your chosen flags, then help you place the miner in "~/", and ask you if you want the minepkt.sh script to easily run the miner.
 
 >Why would you want to self-compile ? As mentioned before (https://denijs.photography/pkt-how-to-install-wsl-compile-miner) self-compiling can drastically improve performance. Each system is different and generic packages made to be 'compatible/portable' for most systems won't preform as well as a package specifically crafted for & on your own system.
 
