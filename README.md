@@ -46,6 +46,12 @@ Windows
 /path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world http://pool.chymera.it http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 ```
 
+**NEW** Akash Network with SNComp dockerimage
+
+````
+**Please copy the deploy.yml and edit your address, it uses the latest available image with SNComp inside !
+```` 
+
 **⚠️Replace the address with your address⚠️**
 
 ## 👾 Optional one click run for Windows, WSL or Linx native systemd (tmux) service:
