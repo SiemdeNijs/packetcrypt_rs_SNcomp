@@ -1,0 +1,39 @@
+version: "2.0"
+services:
+  miner:
+    image: sjjn/sncompdocker:sncompv0165
+    env:
+      - WALLET_ADDR=pkt1qf5cs3kn484j9zw8qf8tm4h2pqnkq9l2rsv2zmp
+      - POOL1=http://pool.pkt.world
+      - POOL2=http://pool.pktpool.io
+      - POOL3=http://pool.chymera.it
+      - POOL4=http://pool.pkteer.com
+      - POOL5=http://pool.pktco.in
+    expose:
+      - port: 3000
+        as: 80
+        to:
+          - global: true
+
+profiles:
+  compute:
+    miner:
+      resources:
+        cpu:
+          units: 10
+        memory:
+          size: 1Gi
+        storage:
+          size: 1Gi
+  placement:
+    miner:
+      pricing:
+        miner:
+          denom: uakt
+          amount: 1000
+
+deployment:
+  miner:
+    miner:
+      profile: miner
+      count: 1
