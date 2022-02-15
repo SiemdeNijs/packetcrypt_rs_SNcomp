@@ -47,9 +47,9 @@ Windows
 ```
 
 **NEW** Akash Network with SNComp dockerimage
-
+Please copy the deploy.yml and edit your address, it uses the latest available docker image with SNComp inside
 ````
-**Please copy the deploy.yml and edit your address, it uses the latest available image with SNComp inside !
+https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/blob/main/deploy.yml
 ```` 
 
 **⚠️Replace the address with your address⚠️**
