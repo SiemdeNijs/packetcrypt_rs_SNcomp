@@ -46,8 +46,7 @@ Windows
 /path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world http://pool.chymera.it http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 ```
 
-**NEW** Akash Network with SNComp dockerimage
-Please copy the deploy.yml and edit your address, it uses the latest available docker image with SNComp inside
+**NEW** Akash Network with SNComp docker image: copy deploy.yml & edit your address, uses the latest available SNcomp
 ````
 https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/blob/main/deploy.yml
 ```` 
