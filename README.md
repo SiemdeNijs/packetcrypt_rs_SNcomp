@@ -180,6 +180,7 @@ Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
 ## **🐧 Android phone UserLAnd mining, debian aarch64/armu package**
 
 > Fist install UserLAnd app [https://play.google.com/store/apps/details?id=tech.ula], setup the debian distro. Look up how to "unrestrict battery usage" & "unrestrict data usage" in your phone settings (often under settings -> Apps -> UserLAnd), also make sure the app has all the correct permissions. Run sudo apt update & sudo apt upgrade upon first usage. In the notification from UserLAnd, be sure to enable "acquire wakelock".
+
 **STEP 0**
 ```
 sudo apt install wget && sudo apt install tmux && sudo apt install nano
@@ -196,16 +197,16 @@ wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releas
 ```
 wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/mobile.sh && chmod +x ~/minepkt.sh
 ```
-**STEP 4:**
+**STEP 3:**
 ```
 wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmuxmine.sh && chmod +x ~/pkttmuxmine.sh
 ```
-**STEP 5:**
+**STEP 4:**
 > nano ~/minepkt.sh **⚠️ edit to your personal pkt address ! ⚠️** 
 
 > **⚠️ ! ON PHONES YOU SHOULD USE THE "-t 8" option and limit threads to about half of your available threads.
 Edit, and try to find the sweet spot per phone. Performance is otherwise impacted greatly ! ⚠️**
-**STEP 5.5:**
+**STEP 4.5:**
 > Hit CTRL + X To exit, "Y" to save when prompted.
  
 > Done. See commands below to start mining on your phone.
