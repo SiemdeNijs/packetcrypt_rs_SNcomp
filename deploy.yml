@@ -27,15 +27,10 @@ profiles:
           size: 1Gi
   placement:
     miner:
-      attributes:
-        host: akash
-      signedBy:
-        anyOf:
-          - "akash1365yvmc4s7awdyj3n2sav7xfx76adc6dnmlx63"
       pricing:
         miner:
           denom: uakt
-          amount: 1000
+          amount: 100000
 
 deployment:
   miner:
