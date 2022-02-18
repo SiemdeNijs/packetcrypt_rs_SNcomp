@@ -1,14 +1,16 @@
 version: "2.0"
 services:
   miner:
-    image: sjjn/sncompdocker:sncompv0166
+    image: sjjn/sncompdocker:sncompv0170
     env:
-      - WALLET_ADDR=pkt1qf5cs3kn484j9zw8qf8tm4h2pqnkq9l2rsv2zmp #  edit to your own address if you dont wanna be my sugardaddy ;) 
+      - WALLET_ADDR=pkt1qf5cs3kn484j9zw8qf8tm4h2pqnkq9l2rsv2zmp # edit if you don't want to be my sugadaddy ;)
       - POOL1=http://pool.pkt.world
       - POOL2=http://pool.pktpool.io
       - POOL3=http://pool.pkteer.com
       - POOL4=http://pool.chymera.it
       - POOL5=http://pool.pktco.in
+      - LOGRATES=1 # set to 0 to log all errors as normal, leave on 1 to only show rates
+      - THREADS=9 # would advise to leave 1 below total count on Akash deployment try to find the sweetspot
     expose:
       - port: 3000
         as: 80
