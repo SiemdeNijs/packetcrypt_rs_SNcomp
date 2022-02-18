@@ -53,7 +53,7 @@ https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/blob/main/deploy.yml
 
 **⚠️Replace the address with your address⚠️**
 
-## 👾 Optional one click run for Windows, WSL or Linx native systemd (tmux) service:
+## 👾 Optional one click run for Windows, WSL or Linx native systemd (tmux) service available too
 
 ## **🪟 Windows native (running .exe directly on windows machine):**
 
@@ -227,6 +227,17 @@ tmux attach-session -t miner
 Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
 
 > Optionally, connect to your android phone over ssh with port 2022 and your set username/password.
+
+## **🐋 NEW: Docker, instructions for use without Akash (linux64amd container)**
+Docker pull:
+````
+sudo docker pull sjjn/sncompdocker:sncompv0170
+````
+Run the container but pass the following variables in your run command
+````
+sudo docker run -e WALLET_ADDR="pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj" -e POOL1="poolurl" -e POOL2="poolurl" -e POOL3="poolurl" -e POOL4="poolurl" -e POOL5="poolurl" -e LOGRATES="1" -e THREADS="10" IMAGEIDHERE
+````
+**DECLARE THE ENVIROMENTAL VARIABLES BEFORE THE IMAGE TAG/ID OR THEY WILL NOT BE PASSED. EDIT TO YOUR ADDRESS / THREAD COUNT / POOL ORDER**
 
 ## **🤖 Use my SDNautocomp script if you wish to compile the official miner automatically [Linux/WSL/Android]**
 ```
