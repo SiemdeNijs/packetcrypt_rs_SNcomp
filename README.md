@@ -237,7 +237,9 @@ Run the container but pass the following variables in your run command
 ````
 sudo docker run -e WALLET_ADDR="pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj" -e POOL1="poolurl" -e POOL2="poolurl" -e POOL3="poolurl" -e POOL4="poolurl" -e POOL5="poolurl" -e LOGRATES="1" -e THREADS="10" IMAGEIDHERE
 ````
-**DECLARE THE ENVIROMENTAL VARIABLES BEFORE THE IMAGE TAG/ID OR THEY WILL NOT BE PASSED. EDIT TO YOUR ADDRESS / THREAD COUNT / POOL ORDER**
+**DECLARE THE ENVIROMENTAL VARIABLES BEFORE THE IMAGE TAG/ID OR THEY WILL NOT BE PASSED.
+
+EDIT TO YOUR ADDRESS / THREAD COUNT / POOL ORDER**
 
 ## **🤖 Use my SDNautocomp script if you wish to compile the official miner automatically [Linux/WSL/Android]**
 ```
