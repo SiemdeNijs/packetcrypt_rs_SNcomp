@@ -256,6 +256,14 @@ I'm personally editing the source & compile it with a very different method.
 
 This script is soley offered so you can measure performance on pre-compiled official vs my SNcomp vs self compiled version. In pretty much all cases, I'd still recommend using SNcomp at this moment. 
 
+## **🔧 Extra's**
+
+**Log all output to a file, while still censoring output in console to show only rates**
+````
+2>&1 |&tee -a /var/log/pkt.log | grep --color=never -o "annmine.rs.*Ke.*"
+````
+
+**You should edit /var/log/pkt.log to the desitnation where you want to log, it will append to the file instead of overwriting it each time. Add this to the end of your miner command in Linux/WSL/Android, or edit (sudo nano) ~/minepkt.sh to your likings**
 
 ## Cheers and have fun.
 
