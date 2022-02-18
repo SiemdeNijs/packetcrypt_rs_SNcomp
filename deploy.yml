@@ -10,7 +10,7 @@ services:
       - POOL4=http://pool.chymera.it
       - POOL5=http://pool.pktco.in
       - LOGRATES=1 # set to 0 to log all errors as normal, leave on 1 to only show rates
-      - THREADS=9 # would advise to leave 1 below total count on Akash deployment try to find the sweetspot
+      - THREADS=8 # would advise to leave 2+ below total count on Akash deployment / try to find the sweetspot
     expose:
       - port: 3000
         as: 80
