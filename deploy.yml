@@ -3,13 +3,15 @@ services:
   miner:
     image: sjjn/sncompdocker:sncompv0173
     env:
+     # - HTTPS_PROXY=http://username:password@PROXYURLORIP:3128 # only uncomment if you need it.. you know what for (:
+     # - HTTPS_PROXY=http://username:password@PROXYURLORIP:3128 # if you want to use a proxy, uncomment both these lines (:
       - WALLET_ADDR=pkt1qf5cs3kn484j9zw8qf8tm4h2pqnkq9l2rsv2zmp # edit if you don't want to be my sugadaddy ;)
       - POOL1=http://pool.pkt.world
       - POOL2=http://pool.pktpool.io
-    # - POOL3=http://pool.pkteer.com
-    #uncomment only if you have plenty of bandwidth  - POOL4=http://pool.pktco.in
-    #  - POOL5=http://pool.chymera.it
-      - LOGRATES=0 # set to 0 to log all errors as normal, leave on 1 to only show rates
+      - POOL3=http://pool.pkteer.com
+      - POOL4=http://pool.pktco.in
+      - POOL5=http://pool.chymera.it
+      - LOGRATES=1 # set to 0 to log all errors as normal, leave on 1 to only show rates
       - THREADS=8 # would advise to leave 2 below total count on Akash deployment / try to find the sweetspot
     expose:
       - port: 3000
