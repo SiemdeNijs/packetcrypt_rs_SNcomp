@@ -268,7 +268,7 @@ Clarification: edit/remove ``https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp
 
 Create a copy of the minepkt.sh, edit your address, upload it somewhere & use your url.
 ````
-sudo apt install wget tmux nano && wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_x8664_linux && chmod +x ~/packetcrypt && wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/minepkt.sh && chmod +x ~/minepkt.sh && wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmuxmine.sh && chmod +x ~/pkttmuxmine.sh && ~/pkttmuxmine.sh && tmux attach-session -t miner
+sudo apt install wget tmux nano -y && wget -O ~/packetcrypt https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/packetcrypt_x8664_linux && chmod +x ~/packetcrypt && wget -O ~/minepkt.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/minepkt.sh && chmod +x ~/minepkt.sh && wget -O ~/pkttmuxmine.sh https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/pkttmuxmine.sh && chmod +x ~/pkttmuxmine.sh && ~/pkttmuxmine.sh && tmux attach-session -t miner
 ````
 
 
