@@ -262,7 +262,7 @@ This script is soley offered so you can measure performance on pre-compiled offi
 ````
 2>&1 |&tee -a /var/log/pkt.log | grep --color=never -o "annmine.rs.*Ke.*"
 ````
-**One-in-all Linux command to install dependencies, start mining right away. Create a custom minepkt.sh with your address and deploy quickly**
+**One-in-all Linux command to install dependencies & start mining. Edit minepkt.sh with your address and deploy**
 
 Clarification: edit/remove ``https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/releases/download/release/minepkt.sh``. 
 
