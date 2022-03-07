@@ -239,7 +239,7 @@ sudo docker run -e "HTTPS_PROXY=http://username:password@PROXYURLORIP:3128" -e "
 ````
 **DECLARE THE ENVIROMENTAL VARIABLES BEFORE THE IMAGE TAG/ID OR THEY WILL NOT BE PASSED.**
 
-**EDIT TO YOUR ADDRESS / THREAD COUNT / POOL ORDER / PROXY, REMOVE PROXY VARS IF NOT UNUSED**
+**EDIT TO YOUR ADDRESS / THREAD COUNT / POOL ORDER / PROXY, REMOVE PROXY VARS IF UNUSED**
 
 ## **🤖 Use my SDNautocomp script if you wish to compile the official miner automatically [Linux/WSL/Android]**
 ```
