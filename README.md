@@ -235,7 +235,7 @@ sudo docker pull sjjn/sncompdocker:sncompv0170
 ````
 Run the container but pass the following variables in your run command
 ````
-sudo docker run -e "HTTP_PROXY=http://username:password@PROXYURLORIP:3128" -e "HTTP_PROXY=http://username:password@PROXYURLORIP:3128" -e WALLET_ADDR="pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj" -e POOL1="poolurl" -e POOL2="poolurl" -e POOL3="poolurl" -e POOL4="poolurl" -e POOL5="poolurl" -e LOGRATES="1" -e THREADS="10" IMAGEIDHERE
+sudo docker run -e "HTTPS_PROXY=http://username:password@PROXYURLORIP:3128" -e "HTTP_PROXY=http://username:password@PROXYURLORIP:3128" -e WALLET_ADDR="pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj" -e POOL1="poolurl" -e POOL2="poolurl" -e POOL3="poolurl" -e POOL4="poolurl" -e POOL5="poolurl" -e LOGRATES="1" -e THREADS="10" IMAGEIDHERE
 ````
 **DECLARE THE ENVIROMENTAL VARIABLES BEFORE THE IMAGE TAG/ID OR THEY WILL NOT BE PASSED.
 
