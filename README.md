@@ -231,7 +231,7 @@ Detatch from session with ctrl + shift + b, then release and hit "d" to detatch.
 ## **🐋 NEW: Docker, instructions for use without Akash (linux64amd container)**
 Docker pull:
 ````
-sudo docker pull sjjn/sncompdocker:sncompv0170
+sudo docker pull sjjn/sncompdocker:sncompv0173
 ````
 Run the container but pass the following variables in your run command
 ````
