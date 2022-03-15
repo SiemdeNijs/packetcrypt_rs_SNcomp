@@ -1,3 +1,5 @@
+**$PKT Will now be trading on Bittrex Global. If you wish to register, it'd be kind if you use [this link](https://bittrex.com/discover/join?referralCode=T2Y-1DB-5NR), thanks.**
+
 # 🌻⛏️👾 SNcomp packetcrypt miner
 These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkering. 
 
@@ -287,3 +289,5 @@ sudo apt install wget tmux nano -y && wget -O ~/packetcrypt https://github.com/S
 >PKT: pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj
 
 >PayPal: https://PayPal.me/SiemdeNijs
+
+>Bittrex Refferal link: https://bittrex.com/discover/join?referralCode=T2Y-1DB-5NR
