@@ -55,7 +55,7 @@ https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/blob/main/deploy.yml
 
 **⚠️Replace the address with your address⚠️**
 
-## 👾 Optional one click run for Windows, WSL or Linx native systemd (tmux) service available too
+## 👾 Optional one click run for Windows, WSL or Linux native systemd (tmux) service available too
 
 ## **🪟 Windows native (running .exe directly on windows machine):**
 
