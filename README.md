@@ -39,13 +39,13 @@ I'm personally editing the source & compile it with a very different method.
 Linux
 
 ```
-/path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world http://pool.k1m3r4.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+/path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 ```
 
 Windows
 
 ```
-/path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world http://pool.k1m3r4.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+/path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 ```
 
 **NEW** Akash Network with SNComp docker image: copy deploy.yml & edit your address, uses the latest available SNcomp
@@ -63,7 +63,7 @@ https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/blob/main/deploy.yml
 
 >  2 Copy this: 
 ```
-"/path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world http://pool.k1m3r4.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+"/path/to/packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 ```
 
 >  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used.
@@ -78,7 +78,7 @@ https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/blob/main/deploy.yml
 
 >  2 Copy this:
 ```
-wsl /path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world http://pool.k1m3r4.com http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
+wsl /path/to/packetcrypt ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj http://pool.pkt.world http://pool.pktpool.io http://pool.pkteer.com http://pktco.in
 ```
 
 >  3: Change the /path/to, to the actual path. Change it to your address. Optionally add "-t *number*" to limit the threads used.
