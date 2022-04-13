@@ -9,8 +9,7 @@ services:
       - POOL1=http://pool.pkt.world
       - POOL2=http://pool.pktpool.io
       - POOL3=http://pool.pkteer.com
-      - POOL4=http://pool.pktco.in
-      - POOL5=http://pool.k1m3r4.com # if you don't want to use this many pools, remove the entire line "- POOLx=http://"
+      - POOL4=http://pool.pktco.in # if you don't want to use this many pools, remove the entire line "- POOLx=http://"
       - LOGRATES=1 # set to 0 to log all errors as normal, leave on 1 to only show rates
       - THREADS=8 # would advise to leave 2 below total count on Akash deployment / try to find the sweetspot
     expose:
