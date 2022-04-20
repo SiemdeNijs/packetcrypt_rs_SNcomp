@@ -1,4 +1,6 @@
-**$PKT Will now be trading on Bittrex Global. If you wish to register, it'd be kind if you use [this link](https://bittrex.com/discover/join?referralCode=T2Y-1DB-5NR), thanks.**
+**For instructions, please see if it's already moved over to [the wiki right here](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki/). It'll take some time, but hope it helps**
+
+**$PKT is trading on Bittrex Global. If you wish to register, it'd be kind if you use [this link](https://bittrex.com/discover/join?referralCode=T2Y-1DB-5NR), thanks.**
 
 # 🌻⛏️👾 SNcomp packetcrypt miner
 These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkering. 
