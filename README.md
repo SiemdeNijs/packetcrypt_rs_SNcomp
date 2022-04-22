@@ -41,12 +41,12 @@ Use at your own risk. No warranty. **Expect no support**, but I do **try** my be
 * [🔧 Hide miner output except for mining rates for Linux, WSL, Android](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki/%F0%9F%94%A7-Hide-miner-output-except-for-mining-rates-for-Linux,-WSL,-Android)
 
 **Links to explorer, exchanges, docs, pools by category**
-* [ℹ️ Explorer/stats link directory]()
-* [ℹ️ Active pool link directory]()
-* [ℹ️ General resources, docs & more]()
+* [ℹ️ Explorer/stats link directory](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki)
+* [ℹ️ Active pool link directory](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki)
+* [ℹ️ General resources, docs & more](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki)
 
 **FAQ list**
-* [❓FAQ list]()
+* [❓FAQ list](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki)
 
 ****
 
