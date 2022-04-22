@@ -22,7 +22,7 @@ Use at your own risk. No warranty. **Expect no support**, but I do **try** my be
 
 **Instructions for using pre-compiled packages**
 * [🪟 SNcomp pre compiled for Windows](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki/%F0%9F%AA%9F-SNcomp-pre-compiled-for-Windows)
-* [🐧 SNcomp pre compiled for Linux](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki/%F0%9F%90%A7-SNcomp-pre-compiled-for-Linux)
+* [🐧 SNcomp pre compiled for Linux/WSL](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki/%F0%9F%90%A7-SNcomp-pre-compiled-for-Linux-WSL)
 * [📱 SNcomp for Android, UserLAnd](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki/%F0%9F%93%B1-SNcomp-for-Android,-UserLAnd,-aarch64-armu-package)
 * [🐋 SNComp for docker, Linuxamd64](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki/%F0%9F%90%8B-SNcomp-docker-instructions)
 * [🌐 SNComp deployment for Akash](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki/%F0%9F%8C%90-SNcomp-deployment-for-Akash)
