@@ -34,6 +34,7 @@ Use at your own risk. No warranty. **Expect no support**, but I do **try** my be
 * [👾 One click run for Windows, or WSL](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki/%F0%9F%91%BE-One-click-run-for-Windows,-or-WSL)
 * [👾 Linux systemd service, optionally with tmux](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki/%F0%9F%91%BE-Linux-systemd-service,-optionally-with-tmux)
 * [👾 One click run for Android](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki/%F0%9F%91%BE-One-click-run-for-Android)
+* [👾 One command install, deploy & mine for Linux Android WSL](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki/%F0%9F%91%BE-One-command-install,-deploy-&-mine-for-Linux-Android-WSL)
 
 **Extra's**
 * [🔧🚀 Set-up WSL for better performance on Windows](https://denijs.xyz/pkt-how-to-install-wsl-compile-miner)
@@ -47,6 +48,7 @@ Use at your own risk. No warranty. **Expect no support**, but I do **try** my be
 
 **FAQ list**
 * [❓FAQ list](https://github.com/SiemdeNijs/packetcrypt_rs_SNcomp/wiki)
+
 
 ****
 
