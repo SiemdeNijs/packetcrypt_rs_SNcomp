@@ -1,8 +1,6 @@
 # 🌻⛏️👾 SNcomp packetcrypt miner
 
-These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkering. 
-
-Use at your own risk. No warranty. **Expect no support**, but I do **try** my best to offer help on the PKT Discord, PKT.Chat.
+These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkering. Use at your own risk. No warranties. **Expect no support**, but I do **try** my best to help on the PKT Discord, PKT.Chat.
 
 - include jemalloc flag for supported devices
  
