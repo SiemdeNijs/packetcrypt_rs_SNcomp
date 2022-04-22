@@ -2,6 +2,8 @@
 
 **$PKT is trading on Bittrex Global. If you wish to register, it'd be kind if you use [this link](https://bittrex.com/discover/join?referralCode=T2Y-1DB-5NR), thanks.**
 
+**Does traditional $PKT mining sound too difficult, but don't wanna miss out? Check out [PKT Pal](https://pktpal.com/?ref=UPmS_5sifL6V6) and enjoy the coupon ``sn100off``
+
 # 🌻⛏️👾 SNcomp packetcrypt miner
 These packetcrypt miners are pre-compiled by Siem, with custom flags and tinkering. 
 
