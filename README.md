@@ -87,5 +87,6 @@ C:\path\to\packetcrypt.exe ann -p pkt1qc4l3wgtkx3t4qez6pun5k73cktcdczkqqutwnj ht
 >PayPal: https://PayPal.me/SiemdeNijs
 
 > **$PKT is trading on Bittrex Global. If you wish to register, it'd be kind if you use [this link](https://bittrex.com/discover/join?referralCode=T2Y-1DB-5NR), thanks.**
+> **$PKT is trading on Bitmart. If you wish to register, it'd be kind if you use [this link](https://www.bitmart.com/register-referral/en?r=W7WxQk), thanks.**
 
 > **Does traditional $PKT mining sound too difficult, but don't wanna miss out? Check out [PKT Pal](https://pktpal.com/?ref=UPmS_5sifL6V6) and enjoy the coupon ``sn100off``**
